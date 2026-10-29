@@ -1,0 +1,77 @@
+# ─── Secrets — NEVER commit ──────────────────────────────────────────────
+# Firebase Admin service-account key (full backend access, bypasses rules)
+**/serviceAccountKey.json
+**/*serviceAccount*.json
+*-firebase-adminsdk-*.json
+
+# Firebase web config / env
+.env
+.env.*
+!.env.example
+
+# Keys, keystores, certs, credential dumps (defense in depth — none tracked today)
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.mobileprovision
+# Firebase native config, if ever added
+google-services.json
+GoogleService-Info.plist
+# Generic credential / secret files
+**/credentials.json
+**/*credentials*.json
+secrets.json
+**/*secret*.json
+
+# ─── Node / Expo (app/) ──────────────────────────────────────────────────
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.log
+npm-debug.*
+yarn-error.log
+
+# EAS / native build artifacts
+*.apk
+*.aab
+*.ipa
+android/
+ios/
+
+# ─── Python (pull/) ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated export output
+pull/workouts.csv
+
+# ─── PyInstaller (desktop/) ───────────────────────────────────────────────
+# dist/ already matched above; build/ isn't, and PyInstaller's spec-relative
+# work dir needs it too.
+build/
+*.spec.bak
+
+# ─── OS / editor ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ─── Internal docs — only the root README ships to the repo ──────────────
+# Plan / architecture / progress / handover / CLAUDE / AGENTS / component
+# READMEs stay local-only; the public README.md is written at project end.
+*.md
+!/README.md
+
+# Design-source artifacts — the big authored HTML stays local like the docs;
+# its tracked runtime dump (desktop/medallion_art.json) is what ships.
+Medallions v2.dc.html
+*.dc.html

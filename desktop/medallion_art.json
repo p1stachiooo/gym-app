@@ -1,0 +1,5009 @@
+[
+  {
+    "material": "Gravel",
+    "auraLabel": "Dusty gray particulate, sinks",
+    "rim": {
+      "kind": "polygon",
+      "d": "M115.6 60.0 L109.7 78.1 L102.1 95.4 L88.5 109.3 L69.4 113.1 L50.3 115.1 L32.1 108.3 L18.0 95.2 L6.0 79.7 L5.7 60.0 L10.5 42.0 L16.6 23.6 L32.8 12.9 L50.5 6.3 L69.6 5.4 L86.6 13.9 L100.2 26.2 L112.8 40.8 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6f6a61"
+          },
+          {
+            "offset": 1,
+            "color": "#3a352f"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 2
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#9a958c"
+          },
+          {
+            "offset": 0.55,
+            "color": "#6f6a61"
+          },
+          {
+            "offset": 1,
+            "color": "#3a352f"
+          }
+        ]
+      },
+      "speculars": [],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.07
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 42,
+            "cy": 34,
+            "r": 1.4
+          },
+          {
+            "cx": 78,
+            "cy": 46,
+            "r": 1.1
+          },
+          {
+            "cx": 34,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 70,
+            "cy": 84,
+            "r": 1.4
+          },
+          {
+            "cx": 56,
+            "cy": 24,
+            "r": 1
+          }
+        ],
+        "fill": "#9a958c",
+        "opacity": 0.22
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 50,
+            "cy": 88,
+            "r": 1.5
+          },
+          {
+            "cx": 82,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 30,
+            "cy": 48,
+            "r": 1.4
+          },
+          {
+            "cx": 64,
+            "cy": 30,
+            "r": 1.1
+          },
+          {
+            "cx": 40,
+            "cy": 78,
+            "r": 1
+          }
+        ],
+        "fill": "#3a352f",
+        "opacity": 0.45
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M26 32 a48 48 0 0 1 6 -7 M92 76 a48 48 0 0 1 -5 7",
+        "stroke": "#3a352f",
+        "strokeWidth": 3,
+        "strokeLinecap": "round"
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M50 12 C44 22 44 29 50 38 C56 29 56 22 50 12 Z",
+          "fill": true
+        },
+        {
+          "kind": "path",
+          "d": "M50 38 V82",
+          "strokeWidth": 5
+        },
+        {
+          "kind": "path",
+          "d": "M43 82 H57",
+          "strokeWidth": 5
+        }
+      ],
+      "highlightColor": "#9a958c",
+      "highlightOpacity": 0.35,
+      "mainColor": "#2e2a25"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "speckleField",
+        "insetPct": 8.4,
+        "dotColor": "rgba(138,133,120,0.5)",
+        "dotOpacity": 0.5,
+        "sizePx": [
+          10,
+          12
+        ],
+        "anim": "sinkFall",
+        "durationS": 3.2
+      },
+      {
+        "kind": "glow",
+        "insetPct": 2.1,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(138,133,120,0.18)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 6
+      }
+    ]
+  },
+  {
+    "material": "Sandstone",
+    "auraLabel": "Faint tan haze",
+    "rim": {
+      "kind": "polygon",
+      "d": "M116.9 60.0 L113.7 79.5 L100.5 94.0 L87.2 107.2 L69.9 116.2 L50.8 112.4 L32.8 107.1 L17.9 95.4 L7.7 79.0 L6.3 60.0 L10.1 41.8 L16.2 23.2 L32.8 12.8 L50.7 7.4 L69.5 5.9 L87.0 13.3 L100.6 25.9 L112.7 40.8 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#b0956a"
+          },
+          {
+            "offset": 1,
+            "color": "#655132"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 2
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#d8c49a"
+          },
+          {
+            "offset": 0.55,
+            "color": "#b0956a"
+          },
+          {
+            "offset": 1,
+            "color": "#655132"
+          }
+        ]
+      },
+      "speculars": [],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.07
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 42,
+            "cy": 34,
+            "r": 1.4
+          },
+          {
+            "cx": 78,
+            "cy": 46,
+            "r": 1.1
+          },
+          {
+            "cx": 34,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 70,
+            "cy": 84,
+            "r": 1.4
+          },
+          {
+            "cx": 56,
+            "cy": 24,
+            "r": 1
+          }
+        ],
+        "fill": "#d8c49a",
+        "opacity": 0.25
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 50,
+            "cy": 88,
+            "r": 1.5
+          },
+          {
+            "cx": 82,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 30,
+            "cy": 48,
+            "r": 1.4
+          },
+          {
+            "cx": 64,
+            "cy": 30,
+            "r": 1.1
+          },
+          {
+            "cx": 40,
+            "cy": 78,
+            "r": 1
+          }
+        ],
+        "fill": "#655132",
+        "opacity": 0.45
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M26 32 a48 48 0 0 1 6 -7 M92 76 a48 48 0 0 1 -5 7",
+        "stroke": "#655132",
+        "strokeWidth": 3,
+        "strokeLinecap": "round"
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M33 66 A23 23 0 1 1 67 66",
+          "strokeWidth": 6.5
+        },
+        {
+          "kind": "circle",
+          "cx": 33,
+          "cy": 66,
+          "r": 5.5,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 67,
+          "cy": 66,
+          "r": 5.5,
+          "fill": true
+        }
+      ],
+      "highlightColor": "#d8c49a",
+      "highlightOpacity": 0.35,
+      "mainColor": "#54401f"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "cxPct": 42,
+        "cyPct": 46,
+        "rxPct": 55,
+        "ryPct": 45,
+        "colorStart": "rgba(201,168,120,0.3)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "driftXY",
+        "durationS": 7
+      },
+      {
+        "kind": "glow",
+        "cxPct": 60,
+        "cyPct": 55,
+        "rxPct": 55,
+        "ryPct": 45,
+        "colorStart": "rgba(201,168,120,0.22)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "driftXY",
+        "durationS": 9,
+        "reverse": true
+      }
+    ]
+  },
+  {
+    "material": "Slate",
+    "auraLabel": "Flat matte shimmer",
+    "rim": {
+      "kind": "polygon",
+      "d": "M113.3 60.0 L113.0 79.3 L102.7 95.8 L88.5 109.4 L69.6 114.3 L50.4 114.6 L33.6 105.8 L17.7 95.5 L9.5 78.4 L7.0 60.0 L9.7 41.7 L19.6 26.1 L32.7 12.7 L50.1 3.6 L69.5 6.3 L87.3 12.7 L101.0 25.6 L112.7 40.8 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#57687f"
+          },
+          {
+            "offset": 1,
+            "color": "#28303f"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 2
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#93a4c0"
+          },
+          {
+            "offset": 0.55,
+            "color": "#57687f"
+          },
+          {
+            "offset": 1,
+            "color": "#28303f"
+          }
+        ]
+      },
+      "speculars": [],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.07
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 42,
+            "cy": 34,
+            "r": 1.4
+          },
+          {
+            "cx": 78,
+            "cy": 46,
+            "r": 1.1
+          },
+          {
+            "cx": 34,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 70,
+            "cy": 84,
+            "r": 1.4
+          },
+          {
+            "cx": 56,
+            "cy": 24,
+            "r": 1
+          }
+        ],
+        "fill": "#93a4c0",
+        "opacity": 0.22
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 50,
+            "cy": 88,
+            "r": 1.5
+          },
+          {
+            "cx": 82,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 30,
+            "cy": 48,
+            "r": 1.4
+          },
+          {
+            "cx": 64,
+            "cy": 30,
+            "r": 1.1
+          },
+          {
+            "cx": 40,
+            "cy": 78,
+            "r": 1
+          }
+        ],
+        "fill": "#28303f",
+        "opacity": 0.45
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M26 32 a48 48 0 0 1 6 -7 M92 76 a48 48 0 0 1 -5 7",
+        "stroke": "#28303f",
+        "strokeWidth": 3,
+        "strokeLinecap": "round"
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M33 25 L67 71 M67 25 L33 71",
+          "strokeWidth": 3.5
+        },
+        {
+          "kind": "path",
+          "d": "M22 46 C24 66 40 78 50 78 C60 78 76 66 78 46 C70 56 30 56 22 46 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#93a4c0",
+      "highlightOpacity": 0.35,
+      "mainColor": "#1f2634"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": 2.1,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(147,164,192,0.16)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 6
+      },
+      {
+        "kind": "sweep",
+        "insetPct": 8.4,
+        "color": "rgba(170,195,230,0.42)",
+        "anim": "sweep",
+        "durationS": 5.5
+      }
+    ]
+  },
+  {
+    "material": "Limestone",
+    "auraLabel": "Chalky white drift",
+    "rim": {
+      "kind": "polygon",
+      "d": "M114.7 60.0 L112.3 79.0 L101.0 94.4 L87.3 107.2 L69.2 112.5 L50.9 111.8 L31.8 108.8 L17.6 95.6 L6.6 79.4 L2.6 60.0 L9.3 41.5 L19.2 25.8 L32.7 12.7 L50.2 4.7 L69.4 6.8 L87.6 12.2 L101.4 25.3 L112.7 40.8 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c2bcac"
+          },
+          {
+            "offset": 1,
+            "color": "#7a7365"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 2
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#e8e3d7"
+          },
+          {
+            "offset": 0.55,
+            "color": "#c2bcac"
+          },
+          {
+            "offset": 1,
+            "color": "#7a7365"
+          }
+        ]
+      },
+      "speculars": [],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.1
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 42,
+            "cy": 34,
+            "r": 1.4
+          },
+          {
+            "cx": 78,
+            "cy": 46,
+            "r": 1.1
+          },
+          {
+            "cx": 34,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 70,
+            "cy": 84,
+            "r": 1.4
+          },
+          {
+            "cx": 56,
+            "cy": 24,
+            "r": 1
+          }
+        ],
+        "fill": "#ffffff",
+        "opacity": 0.3
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 50,
+            "cy": 88,
+            "r": 1.5
+          },
+          {
+            "cx": 82,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 30,
+            "cy": 48,
+            "r": 1.4
+          },
+          {
+            "cx": 64,
+            "cy": 30,
+            "r": 1.1
+          },
+          {
+            "cx": 40,
+            "cy": 78,
+            "r": 1
+          }
+        ],
+        "fill": "#7a7365",
+        "opacity": 0.5
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M26 32 a48 48 0 0 1 6 -7 M92 76 a48 48 0 0 1 -5 7",
+        "stroke": "#7a7365",
+        "strokeWidth": 3,
+        "strokeLinecap": "round"
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 50,
+          "r": 28,
+          "strokeWidth": 5
+        },
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 50,
+          "r": 20.5,
+          "strokeWidth": 1.8
+        },
+        {
+          "kind": "path",
+          "d": "M40.5 61 L50 35 L59.5 61",
+          "strokeWidth": 6
+        }
+      ],
+      "highlightColor": "#ffffff",
+      "highlightOpacity": 0.4,
+      "mainColor": "#6b6455"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "cxPct": 44,
+        "cyPct": 44,
+        "rxPct": 55,
+        "ryPct": 45,
+        "colorStart": "rgba(232,227,215,0.22)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "driftXY",
+        "durationS": 8
+      },
+      {
+        "kind": "glow",
+        "cxPct": 58,
+        "cyPct": 56,
+        "rxPct": 55,
+        "ryPct": 45,
+        "colorStart": "rgba(232,227,215,0.15)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "driftXY",
+        "durationS": 10,
+        "reverse": true
+      }
+    ]
+  },
+  {
+    "material": "Granite",
+    "auraLabel": "Speckled gray pulse",
+    "rim": {
+      "kind": "polygon",
+      "d": "M116.1 60.0 L111.6 78.8 L103.2 96.2 L88.5 109.4 L69.8 115.5 L50.5 114.0 L32.6 107.5 L17.5 95.7 L8.4 78.8 L3.2 60.0 L8.9 41.4 L18.8 25.4 L32.6 12.6 L50.4 5.8 L69.3 7.3 L87.9 11.6 L101.8 24.9 L112.7 40.8 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#877068"
+          },
+          {
+            "offset": 1,
+            "color": "#4a3c36"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 2
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#bca8a0"
+          },
+          {
+            "offset": 0.55,
+            "color": "#877068"
+          },
+          {
+            "offset": 1,
+            "color": "#4a3c36"
+          }
+        ]
+      },
+      "speculars": [],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.07
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 42,
+            "cy": 34,
+            "r": 1.4
+          },
+          {
+            "cx": 78,
+            "cy": 46,
+            "r": 1.1
+          },
+          {
+            "cx": 34,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 70,
+            "cy": 84,
+            "r": 1.4
+          },
+          {
+            "cx": 56,
+            "cy": 24,
+            "r": 1
+          },
+          {
+            "cx": 66,
+            "cy": 58,
+            "r": 1
+          },
+          {
+            "cx": 46,
+            "cy": 72,
+            "r": 1.1
+          }
+        ],
+        "fill": "#bca8a0",
+        "opacity": 0.3
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 50,
+            "cy": 88,
+            "r": 1.5
+          },
+          {
+            "cx": 82,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 30,
+            "cy": 48,
+            "r": 1.4
+          },
+          {
+            "cx": 64,
+            "cy": 30,
+            "r": 1.1
+          },
+          {
+            "cx": 40,
+            "cy": 78,
+            "r": 1
+          },
+          {
+            "cx": 74,
+            "cy": 72,
+            "r": 1.2
+          }
+        ],
+        "fill": "#2e2b27",
+        "opacity": 0.55
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M26 32 a48 48 0 0 1 6 -7 M92 76 a48 48 0 0 1 -5 7",
+        "stroke": "#4a3c36",
+        "strokeWidth": 3,
+        "strokeLinecap": "round"
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "rect",
+          "x": 24,
+          "y": 35,
+          "width": 15,
+          "height": 31,
+          "rx": 7.5,
+          "strokeWidth": 4
+        },
+        {
+          "kind": "rect",
+          "x": 42.5,
+          "y": 33,
+          "width": 15,
+          "height": 35,
+          "rx": 7.5,
+          "strokeWidth": 4
+        },
+        {
+          "kind": "rect",
+          "x": 61,
+          "y": 35,
+          "width": 15,
+          "height": 31,
+          "rx": 7.5,
+          "strokeWidth": 4
+        },
+        {
+          "kind": "circle",
+          "cx": 31.5,
+          "cy": 50.5,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 50.5,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 68.5,
+          "cy": 50.5,
+          "r": 2,
+          "fill": true
+        }
+      ],
+      "highlightColor": "#bca8a0",
+      "highlightOpacity": 0.35,
+      "mainColor": "#3a2f2a"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "speckleField",
+        "insetPct": 5.26,
+        "dotColor": "rgba(188,160,150,0.55)",
+        "dotOpacity": 0.55,
+        "sizePx": [
+          9,
+          9
+        ],
+        "anim": "flick",
+        "durationS": 3
+      },
+      {
+        "kind": "glow",
+        "insetPct": 2.1,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(188,160,150,0.15)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 6
+      }
+    ]
+  },
+  {
+    "material": "Basalt",
+    "auraLabel": "Dark heat ripple",
+    "rim": {
+      "kind": "polygon",
+      "d": "M112.5 60.0 L110.9 78.5 L101.5 94.9 L87.3 107.3 L69.5 113.7 L50.1 116.2 L33.3 106.3 L17.3 95.8 L10.1 78.1 L3.9 60.0 L8.5 41.3 L18.4 25.1 L32.6 12.5 L50.6 6.9 L69.2 7.8 L88.3 11.0 L102.2 24.6 L112.6 40.8 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#62666a"
+          },
+          {
+            "offset": 1,
+            "color": "#1b1d1f"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 2
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#62666a"
+          },
+          {
+            "offset": 0.55,
+            "color": "#393c40"
+          },
+          {
+            "offset": 1,
+            "color": "#1b1d1f"
+          }
+        ]
+      },
+      "speculars": [],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.55
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.06
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M38 78 l8 -9 -5 -6 9 -10 M70 82 l-6 -10 M84 50 l-10 5",
+        "stroke": "#e06a2e",
+        "strokeOpacity": 0.55,
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "flick",
+        "animDurationS": 3.4
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 42,
+            "cy": 34,
+            "r": 1.4
+          },
+          {
+            "cx": 78,
+            "cy": 46,
+            "r": 1.1
+          },
+          {
+            "cx": 34,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 70,
+            "cy": 84,
+            "r": 1.4
+          },
+          {
+            "cx": 56,
+            "cy": 24,
+            "r": 1
+          }
+        ],
+        "fill": "#8a8e93",
+        "opacity": 0.25
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 50,
+            "cy": 88,
+            "r": 1.5
+          },
+          {
+            "cx": 82,
+            "cy": 66,
+            "r": 1.2
+          },
+          {
+            "cx": 30,
+            "cy": 48,
+            "r": 1.4
+          },
+          {
+            "cx": 64,
+            "cy": 30,
+            "r": 1.1
+          },
+          {
+            "cx": 40,
+            "cy": 78,
+            "r": 1
+          }
+        ],
+        "fill": "#101214",
+        "opacity": 0.6
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M26 32 a48 48 0 0 1 6 -7 M92 76 a48 48 0 0 1 -5 7",
+        "stroke": "#101214",
+        "strokeWidth": 3,
+        "strokeLinecap": "round"
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M50 20 V82",
+          "strokeWidth": 5
+        },
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 29,
+          "r": 7,
+          "strokeWidth": 4.5
+        },
+        {
+          "kind": "path",
+          "d": "M35 46 H65",
+          "strokeWidth": 5
+        },
+        {
+          "kind": "path",
+          "d": "M38 59 H62",
+          "strokeWidth": 5
+        }
+      ],
+      "highlightColor": "#8a8e93",
+      "highlightOpacity": 0.4,
+      "mainColor": "#121416"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": 3.16,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 55,
+        "ryPct": 55,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 48,
+          "color": "rgba(192,73,46,0.4)"
+        },
+        "anim": "ringOut",
+        "durationS": 3.4
+      },
+      {
+        "kind": "glow",
+        "insetPct": 3.16,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 55,
+        "ryPct": 55,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 48,
+          "color": "rgba(192,73,46,0.32)"
+        },
+        "anim": "ringOut",
+        "durationS": 3.4,
+        "delayS": 1.7
+      },
+      {
+        "kind": "glow",
+        "cxPct": 50,
+        "cyPct": 72,
+        "rxPct": 50,
+        "ryPct": 40,
+        "colorStart": "rgba(192,73,46,0.2)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 4
+      }
+    ]
+  },
+  {
+    "material": "Iron",
+    "auraLabel": "Rust flecks, a marching column",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#aeb6bf"
+          },
+          {
+            "offset": 1,
+            "color": "#333a41"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#aeb6bf"
+          },
+          {
+            "offset": 0.5,
+            "color": "#6e767f"
+          },
+          {
+            "offset": 1,
+            "color": "#333a41"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.5
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "circleGroup",
+        "layer": "rim",
+        "circles": [
+          {
+            "cx": 112,
+            "cy": 60,
+            "r": 2.2
+          },
+          {
+            "cx": 96.8,
+            "cy": 96.8,
+            "r": 2.2
+          },
+          {
+            "cx": 60,
+            "cy": 112,
+            "r": 2.2
+          },
+          {
+            "cx": 23.2,
+            "cy": 96.8,
+            "r": 2.2
+          },
+          {
+            "cx": 8,
+            "cy": 60,
+            "r": 2.2
+          },
+          {
+            "cx": 23.2,
+            "cy": 23.2,
+            "r": 2.2
+          },
+          {
+            "cx": 60,
+            "cy": 8,
+            "r": 2.2
+          },
+          {
+            "cx": 96.8,
+            "cy": 23.2,
+            "r": 2.2
+          }
+        ],
+        "fill": "#272d34",
+        "opacity": 1
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 34,
+            "cy": 42,
+            "r": 4
+          },
+          {
+            "cx": 80,
+            "cy": 72,
+            "r": 5
+          },
+          {
+            "cx": 72,
+            "cy": 34,
+            "r": 2.6
+          }
+        ],
+        "fill": "#c86a2e",
+        "opacity": 0.3
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M28 44 a38 38 0 0 1 22 -20 M92 74 a38 38 0 0 1 -20 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.12,
+        "strokeWidth": 2.5,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.2
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.22
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M31 77 L69 31",
+          "strokeWidth": 4.5
+        },
+        {
+          "kind": "path",
+          "d": "M69 77 L31 31",
+          "strokeWidth": 4.5
+        },
+        {
+          "kind": "group",
+          "transform": "translate(69 31) rotate(39.5)",
+          "parts": [
+            {
+              "kind": "path",
+              "d": "M0 8 C-5 0 -5 -8 0 -16 C5 -8 5 0 0 8 Z",
+              "fill": true
+            }
+          ]
+        },
+        {
+          "kind": "group",
+          "transform": "translate(31 31) rotate(-39.5)",
+          "parts": [
+            {
+              "kind": "path",
+              "d": "M0 8 C-5 0 -5 -8 0 -16 C5 -8 5 0 0 8 Z",
+              "fill": true
+            }
+          ]
+        }
+      ],
+      "highlightColor": "#dbe2e9",
+      "highlightOpacity": 0.4,
+      "mainColor": "#272d34"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": 5.26,
+        "r": 88,
+        "stroke": "#c86a2e",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 2.4,
+        "dasharray": "2.4 7",
+        "anim": "spinCW",
+        "durationS": 26
+      },
+      {
+        "kind": "speckleField",
+        "insetPct": 6.32,
+        "dotColor": "rgba(200,106,46,0.55)",
+        "dotOpacity": 0.55,
+        "sizePx": [
+          9,
+          10
+        ],
+        "anim": "flick",
+        "durationS": 2.8
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(200,106,46,0.16)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5
+      }
+    ]
+  },
+  {
+    "material": "Copper",
+    "auraLabel": "Verdigris smoke",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#e89a54"
+          },
+          {
+            "offset": 1,
+            "color": "#54301a"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#e89a54"
+          },
+          {
+            "offset": 0.5,
+            "color": "#b56430"
+          },
+          {
+            "offset": 1,
+            "color": "#54301a"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffe9d2",
+              "opacity": 0.55
+            },
+            {
+              "offset": 1,
+              "color": "#ffe9d2",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#2f8a68",
+        "strokeWidth": 4.5,
+        "strokeDasharray": "7 4"
+      },
+      {
+        "kind": "circleGroup",
+        "layer": "postVignette",
+        "circles": [
+          {
+            "cx": 30,
+            "cy": 70,
+            "r": 6
+          },
+          {
+            "cx": 82,
+            "cy": 46,
+            "r": 4.5
+          },
+          {
+            "cx": 66,
+            "cy": 88,
+            "r": 3.5
+          }
+        ],
+        "fill": "#3fae86",
+        "opacity": 0.35
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M28 44 a38 38 0 0 1 22 -20 M92 74 a38 38 0 0 1 -20 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.14,
+        "strokeWidth": 2.5,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.22
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.22
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M50 80 C37 75 29 62 30 45",
+          "strokeWidth": 3.6
+        },
+        {
+          "kind": "path",
+          "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+          "fill": true,
+          "transform": "translate(33 66) rotate(-38)"
+        },
+        {
+          "kind": "path",
+          "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+          "fill": true,
+          "transform": "translate(30 55) rotate(-18)"
+        },
+        {
+          "kind": "path",
+          "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+          "fill": true,
+          "transform": "translate(30 45)"
+        },
+        {
+          "kind": "path",
+          "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+          "fill": true,
+          "transform": "translate(34 35) rotate(20)"
+        },
+        {
+          "kind": "path",
+          "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+          "fill": true,
+          "transform": "translate(41 28) rotate(42)"
+        },
+        {
+          "kind": "group",
+          "transform": "translate(100 0) scale(-1 1)",
+          "parts": [
+            {
+              "kind": "path",
+              "d": "M50 80 C37 75 29 62 30 45",
+              "strokeWidth": 3.6
+            },
+            {
+              "kind": "path",
+              "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+              "fill": true,
+              "transform": "translate(33 66) rotate(-38)"
+            },
+            {
+              "kind": "path",
+              "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+              "fill": true,
+              "transform": "translate(30 55) rotate(-18)"
+            },
+            {
+              "kind": "path",
+              "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+              "fill": true,
+              "transform": "translate(30 45)"
+            },
+            {
+              "kind": "path",
+              "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+              "fill": true,
+              "transform": "translate(34 35) rotate(20)"
+            },
+            {
+              "kind": "path",
+              "d": "M0 0 C-5 -5 -6 -12 -2 -18 C4 -13 5 -5 0 0 Z",
+              "fill": true,
+              "transform": "translate(41 28) rotate(42)"
+            }
+          ]
+        }
+      ],
+      "highlightColor": "#ffd9ae",
+      "highlightOpacity": 0.4,
+      "mainColor": "#4a2d16"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "cxPct": 50,
+        "cyPct": 44,
+        "rxPct": 28,
+        "ryPct": 28,
+        "colorStart": "rgba(63,174,134,0.32)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 4.5
+      },
+      {
+        "kind": "glow",
+        "cxPct": 54,
+        "cyPct": 50,
+        "rxPct": 24,
+        "ryPct": 24,
+        "colorStart": "rgba(63,174,134,0.26)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 4.5,
+        "delayS": 2.2
+      },
+      {
+        "kind": "glow",
+        "insetPct": 2.1,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(63,174,134,0.12)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 6
+      }
+    ]
+  },
+  {
+    "material": "Bronze",
+    "auraLabel": "Warm amber glow",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c88a47"
+          },
+          {
+            "offset": 1,
+            "color": "#4e3213"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c88a47"
+          },
+          {
+            "offset": 0.5,
+            "color": "#9a6528"
+          },
+          {
+            "offset": 1,
+            "color": "#4e3213"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffe4b8",
+              "opacity": 0.55
+            },
+            {
+              "offset": 1,
+              "color": "#ffe4b8",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52,
+        "stroke": "#4e3213",
+        "strokeWidth": 3,
+        "strokeDasharray": "1.8 2.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M28 44 a38 38 0 0 1 22 -20 M92 74 a38 38 0 0 1 -20 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.14,
+        "strokeWidth": 2.5,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.22
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.22
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M50 15 C45 27 59 33 53 45 C51 39 47 38 47.5 33 C39 41 35 52 42 62 C34 57 30 47 33.5 37 C27 49 30.5 64 42.5 71.5 C55 79 69 71 68.5 57.5 C68 45 56.5 41 59 29 C54 34 52 25 50 15 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#ffd9a0",
+      "highlightOpacity": 0.4,
+      "mainColor": "#3f2810"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 60,
+        "ryPct": 60,
+        "colorStart": "rgba(227,164,74,0.4)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breathe",
+        "durationS": 4.5,
+        "insetPct": -4.2
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 64,
+        "ryPct": 64,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 58,
+          "color": "rgba(227,164,74,0.35)"
+        },
+        "anim": "breatheSoft",
+        "durationS": 4.5
+      },
+      {
+        "kind": "glow",
+        "cxPct": 32.4,
+        "cyPct": 32.4,
+        "rxPct": 2.4,
+        "ryPct": 2.4,
+        "colorStart": "rgba(255,170,80,0.9)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 3.2
+      },
+      {
+        "kind": "glow",
+        "cxPct": 64.4,
+        "cyPct": 27.8,
+        "rxPct": 1.8,
+        "ryPct": 1.8,
+        "colorStart": "rgba(255,170,80,0.9)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 4.1,
+        "delayS": 1.3
+      },
+      {
+        "kind": "glow",
+        "cxPct": 49.6,
+        "cyPct": 21.6,
+        "rxPct": 1.6,
+        "ryPct": 1.6,
+        "colorStart": "rgba(255,200,120,0.9)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 3.7,
+        "delayS": 2.2
+      }
+    ]
+  },
+  {
+    "material": "Nickel",
+    "auraLabel": "The boulder, orbiting forever",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#d8e8dc"
+          },
+          {
+            "offset": 1,
+            "color": "#42584a"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#d8e8dc"
+          },
+          {
+            "offset": 0.5,
+            "color": "#8fac9c"
+          },
+          {
+            "offset": 1,
+            "color": "#42584a"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.55
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52,
+        "stroke": "#42584a",
+        "strokeWidth": 3,
+        "strokeDasharray": "1.8 2.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M28 44 a38 38 0 0 1 22 -20 M92 74 a38 38 0 0 1 -20 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.14,
+        "strokeWidth": 2.5,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.22
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.22
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M18 82 L82 34 L82 82 Z",
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 56,
+          "cy": 38,
+          "r": 12,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 37,
+          "cy": 51,
+          "r": 4,
+          "fill": true
+        },
+        {
+          "kind": "path",
+          "d": "M39 55 L33 64 M33 64 L27 70 M33 64 L37 72 M40 56 L46 49 M42 59 L48 53",
+          "strokeWidth": 3
+        }
+      ],
+      "highlightColor": "#eef3f6",
+      "highlightOpacity": 0.4,
+      "mainColor": "#324a3c"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "speckleField",
+        "insetPct": 6.32,
+        "dotColor": "rgba(150,220,190,0.5)",
+        "dotOpacity": 0.5,
+        "sizePx": [
+          9,
+          9
+        ],
+        "anim": "flick",
+        "durationS": 2.2
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": -2.1,
+        "r": 88,
+        "stroke": "#a8c4ae",
+        "strokeOpacity": 0.25,
+        "strokeWidth": 1.6,
+        "dasharray": "3 10",
+        "moon": {
+          "cx": 100,
+          "cy": 12,
+          "r": 6,
+          "color": "#a8c4ae"
+        },
+        "anim": "spinCW",
+        "durationS": 6
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(150,220,190,0.16)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5.5
+      }
+    ]
+  },
+  {
+    "material": "Steel",
+    "auraLabel": "Blue-white edge flare",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c2cad2"
+          },
+          {
+            "offset": 1,
+            "color": "#3f474d"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c2cad2"
+          },
+          {
+            "offset": 0.5,
+            "color": "#828b93"
+          },
+          {
+            "offset": 1,
+            "color": "#3f474d"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.5
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.5,
+          "cy": 0.92,
+          "r": 0.55,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ff9a4a",
+              "opacity": 0.4
+            },
+            {
+              "offset": 1,
+              "color": "#ff9a4a",
+              "opacity": 0
+            }
+          ],
+          "afterVignette": true
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#3f474d",
+        "strokeWidth": 3.4,
+        "strokeDasharray": "9 5.4"
+      },
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#828b93",
+        "strokeWidth": 3.4,
+        "strokeDasharray": "9 5.4",
+        "strokeDashoffset": 7.2,
+        "strokeOpacity": 0.5
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M28 44 a38 38 0 0 1 22 -20 M92 74 a38 38 0 0 1 -20 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.14,
+        "strokeWidth": 2.5,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.22
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.22
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "group",
+          "transform": "translate(50 36) scale(0.78) translate(-50 -44)",
+          "parts": [
+            {
+              "kind": "path",
+              "d": "M50 15 C45 27 59 33 53 45 C51 39 47 38 47.5 33 C39 41 35 52 42 62 C34 57 30 47 33.5 37 C27 49 30.5 64 42.5 71.5 C55 79 69 71 68.5 57.5 C68 45 56.5 41 59 29 C54 34 52 25 50 15 Z",
+              "fill": true
+            }
+          ]
+        },
+        {
+          "kind": "rect",
+          "x": 25,
+          "y": 63,
+          "width": 19,
+          "height": 13,
+          "rx": 6.5,
+          "strokeWidth": 4.2
+        },
+        {
+          "kind": "rect",
+          "x": 56,
+          "y": 63,
+          "width": 19,
+          "height": 13,
+          "rx": 6.5,
+          "strokeWidth": 4.2
+        },
+        {
+          "kind": "path",
+          "d": "M50 64 l4 5.5 -4 5.5 -4 -5.5 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#e9f2fa",
+      "highlightOpacity": 0.4,
+      "mainColor": "#2c3339"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 64,
+        "ryPct": 64,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 57,
+          "color": "rgba(255,150,70,0.55)"
+        },
+        "anim": "breathe",
+        "durationS": 5
+      },
+      {
+        "kind": "glow",
+        "insetPct": -3.16,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(188,216,242,0.18)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5
+      },
+      {
+        "kind": "glow",
+        "cxPct": 40.2,
+        "cyPct": 28.2,
+        "rxPct": 2.1,
+        "ryPct": 2.1,
+        "colorStart": "rgba(255,154,74,0.9)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 3.4
+      },
+      {
+        "kind": "glow",
+        "cxPct": 59.6,
+        "cyPct": 21.6,
+        "rxPct": 1.6,
+        "ryPct": 1.6,
+        "colorStart": "rgba(255,154,74,0.9)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 4.4,
+        "delayS": 1.8
+      }
+    ]
+  },
+  {
+    "material": "Tungsten",
+    "auraLabel": "The heavens wheel overhead",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#a89468"
+          },
+          {
+            "offset": 1,
+            "color": "#2a2418"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.5,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#a89468"
+          },
+          {
+            "offset": 0.5,
+            "color": "#665838"
+          },
+          {
+            "offset": 1,
+            "color": "#2a2418"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#f2e2b8",
+              "opacity": 0.4
+            },
+            {
+              "offset": 1,
+              "color": "#f2e2b8",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.5
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 57.5,
+        "stroke": "#1c1912",
+        "strokeWidth": 3
+      },
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52,
+        "stroke": "#2a2418",
+        "strokeWidth": 3,
+        "strokeDasharray": "1.8 2.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M28 44 a38 38 0 0 1 22 -20 M92 74 a38 38 0 0 1 -20 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.1,
+        "strokeWidth": 2.5,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.16
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.25
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 34,
+          "r": 15,
+          "strokeWidth": 4.5
+        },
+        {
+          "kind": "path",
+          "d": "M35.5 34 H64.5",
+          "strokeWidth": 2
+        },
+        {
+          "kind": "ellipse",
+          "cx": 50,
+          "cy": 34,
+          "rx": 6,
+          "ry": 15,
+          "strokeWidth": 2
+        },
+        {
+          "kind": "path",
+          "d": "M38 62 C38 54 40 50 44 47 M62 62 C62 54 60 50 56 47",
+          "strokeWidth": 4.5
+        },
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 60,
+          "r": 5,
+          "strokeWidth": 3.6
+        },
+        {
+          "kind": "path",
+          "d": "M45 68 L40 82 M55 68 L60 82 M36 86 H64",
+          "strokeWidth": 4
+        }
+      ],
+      "highlightColor": "#e8d9ae",
+      "highlightOpacity": 0.35,
+      "mainColor": "#1f1c15"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(184,154,90,0.16)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 6
+      },
+      {
+        "kind": "sweep",
+        "insetPct": 7.37,
+        "color": "rgba(184,154,90,0.42)",
+        "anim": "sweep",
+        "durationS": 6
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": -4.2,
+        "rx": 88,
+        "ry": 26,
+        "rotateDeg": -18,
+        "stroke": "#c9ae6a",
+        "strokeOpacity": 1,
+        "strokeWidth": 1.6,
+        "moon": {
+          "cx": 18,
+          "cy": 76,
+          "r": 2.6,
+          "color": "#e8d9ae"
+        },
+        "anim": "spinCCW",
+        "durationS": 20,
+        "groupOpacity": 0.35
+      }
+    ]
+  },
+  {
+    "material": "Silver",
+    "auraLabel": "Moonlit homeward sheen",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#e6f0fc"
+          },
+          {
+            "offset": 1,
+            "color": "#41556e"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.4,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#e6f0fc"
+          },
+          {
+            "offset": 0.5,
+            "color": "#a4bad6"
+          },
+          {
+            "offset": 1,
+            "color": "#41556e"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.68
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.18
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.4
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#41556e",
+        "strokeWidth": 5,
+        "strokeDasharray": "1 7.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.55,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.3
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.18
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M40 30 v8 M36 34 h8",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "twinkle",
+        "animDurationS": 2.8
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M30 78 L62 37",
+          "strokeWidth": 5
+        },
+        {
+          "kind": "group",
+          "transform": "translate(68 29) rotate(38)",
+          "parts": [
+            {
+              "kind": "path",
+              "d": "M0 16 C-8 7 -8 -7 0 -18 C8 -7 8 7 0 16 Z",
+              "fill": true
+            }
+          ]
+        },
+        {
+          "kind": "path",
+          "d": "M20 72 q6 -5.5 12 0 t12 0 t12 0 M26 80 q6 -5.5 12 0 t12 0 M34 87 q6 -5.5 12 0",
+          "strokeWidth": 3
+        }
+      ],
+      "highlightColor": "#ffffff",
+      "highlightOpacity": 0.5,
+      "mainColor": "#39485c"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": -2.1,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(207,224,240,0.22)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5
+      },
+      {
+        "kind": "sweep",
+        "insetPct": 7.37,
+        "color": "rgba(207,224,240,0.55)",
+        "anim": "sweep",
+        "durationS": 5
+      },
+      {
+        "kind": "icon",
+        "d": "M28 6 A14 14 0 1 0 28 34 A11 11 0 1 1 28 6 Z",
+        "viewBox": 40,
+        "fill": "#dce9f5",
+        "leftPct": 10,
+        "topPct": 6,
+        "sizePx": 22,
+        "anim": "driftXY",
+        "durationS": 9
+      },
+      {
+        "kind": "glow",
+        "insetPct": 4.2,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 57,
+        "ryPct": 57,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 50,
+          "color": "rgba(90,170,190,0.45)"
+        },
+        "anim": "ringOut",
+        "durationS": 4.2
+      },
+      {
+        "kind": "icon",
+        "d": "M10 2 V18 M2 10 H18",
+        "viewBox": 20,
+        "stroke": "#ffffff",
+        "strokeWidth": 2,
+        "leftPct": 66,
+        "topPct": 14,
+        "sizePx": 15,
+        "anim": "twinkle",
+        "durationS": 3
+      },
+      {
+        "kind": "icon",
+        "d": "M10 2 V18 M2 10 H18",
+        "viewBox": 20,
+        "stroke": "#ffffff",
+        "strokeWidth": 2,
+        "leftPct": 16,
+        "topPct": 66,
+        "sizePx": 11,
+        "anim": "twinkle",
+        "durationS": 3.8,
+        "delayS": 1.2
+      }
+    ]
+  },
+  {
+    "material": "Titanium",
+    "auraLabel": "Iridescent violet-blue arc",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c2bede"
+          },
+          {
+            "offset": 1,
+            "color": "#38345c"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.45,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#c2bede"
+          },
+          {
+            "offset": 0.5,
+            "color": "#7d78a8"
+          },
+          {
+            "offset": 1,
+            "color": "#38345c"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#cdd6ff",
+              "opacity": 0.6
+            },
+            {
+              "offset": 1,
+              "color": "#cdd6ff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#8fd0e0",
+              "opacity": 0.22
+            },
+            {
+              "offset": 1,
+              "color": "#8fd0e0",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.45
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#38345c",
+        "strokeWidth": 3.6,
+        "strokeDasharray": "8 3 3 3"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.26
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.2
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M50 50 h12 v-12 h-24 v24 h36 v-36 h-48 v48 h48",
+          "strokeWidth": 4.6,
+          "strokeLinecap": "square",
+          "strokeLinejoin": "miter"
+        }
+      ],
+      "highlightColor": "#e6e9f2",
+      "highlightOpacity": 0.45,
+      "mainColor": "#2a2646",
+      "extras": [
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 47,
+          "r": 3,
+          "fill": true,
+          "color": "#C0492E"
+        }
+      ]
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": -1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(124,140,240,0.16)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": -2.1,
+        "r": 86,
+        "stroke": "#7c8cf0",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 2.5,
+        "dasharray": "10 14",
+        "anim": "spinCW",
+        "durationS": 16
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": 3.16,
+        "r": 82,
+        "stroke": "#8fd0e0",
+        "strokeOpacity": 0.45,
+        "strokeWidth": 2,
+        "dasharray": "6 18",
+        "anim": "spinCCW",
+        "durationS": 22
+      }
+    ]
+  },
+  {
+    "material": "Gold",
+    "auraLabel": "Radiant yellow corona",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#fbe79c"
+          },
+          {
+            "offset": 1,
+            "color": "#8a5f14"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.4,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#fbe79c"
+          },
+          {
+            "offset": 0.5,
+            "color": "#e3b44a"
+          },
+          {
+            "offset": 1,
+            "color": "#8a5f14"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#fff6d8",
+              "opacity": 0.75
+            },
+            {
+              "offset": 1,
+              "color": "#fff6d8",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#fff6d8",
+              "opacity": 0.22
+            },
+            {
+              "offset": 1,
+              "color": "#fff6d8",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.4
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 53,
+        "stroke": "#8a5f14",
+        "strokeWidth": 7,
+        "strokeDasharray": "4 8.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#fff6d8",
+        "strokeOpacity": 0.65,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.3
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.2
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M80 36 v7 M76.5 39.5 h7",
+        "stroke": "#fff6d8",
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "twinkle",
+        "animDurationS": 3.2
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 54,
+          "r": 16,
+          "strokeWidth": 4
+        },
+        {
+          "kind": "path",
+          "d": "M42 48 l7 2.5 M58 48 l-7 2.5",
+          "strokeWidth": 3
+        },
+        {
+          "kind": "circle",
+          "cx": 45.5,
+          "cy": 53.5,
+          "r": 1.8,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 54.5,
+          "cy": 53.5,
+          "r": 1.8,
+          "fill": true
+        },
+        {
+          "kind": "path",
+          "d": "M44 60.5 Q50 65 56 60.5",
+          "strokeWidth": 3
+        },
+        {
+          "kind": "path",
+          "d": "M46.5 62.5 l1.2 4 M53.5 62.5 l-1.2 4",
+          "strokeWidth": 2.2
+        },
+        {
+          "kind": "path",
+          "d": "M50 38 C47 31 53 26 50 17 M41 40 C35 33 39 26 33 20 M59 40 C65 33 61 26 67 20 M35 47 C27 43 25 34 18 33 M65 47 C73 43 75 34 82 33 M37 64 C29 68 29 75 21 74 M63 64 C71 68 71 75 79 74",
+          "strokeWidth": 3
+        },
+        {
+          "kind": "circle",
+          "cx": 50,
+          "cy": 17,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 33,
+          "cy": 20,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 67,
+          "cy": 20,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 18,
+          "cy": 33,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 82,
+          "cy": 33,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 21,
+          "cy": 74,
+          "r": 2,
+          "fill": true
+        },
+        {
+          "kind": "circle",
+          "cx": 79,
+          "cy": 74,
+          "r": 2,
+          "fill": true
+        }
+      ],
+      "highlightColor": "#fff1c4",
+      "highlightOpacity": 0.45,
+      "mainColor": "#6b4a0e"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": -5.26,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 60,
+        "ryPct": 60,
+        "colorStart": "rgba(255,200,60,0.55)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breathe",
+        "durationS": 4
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 64,
+        "ryPct": 64,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 57,
+          "color": "rgba(255,210,74,0.4)"
+        },
+        "anim": "breatheSoft",
+        "durationS": 4
+      },
+      {
+        "kind": "rayBurst",
+        "insetPct": -7.37,
+        "rays": [
+          "M172 100 L196 100",
+          "M162.4 136 L174.5 143",
+          "M136 162.4 L148 183.1",
+          "M100 172 L100 186",
+          "M64 162.4 L52 183.1",
+          "M37.6 136 L25.5 143",
+          "M28 100 L4 100",
+          "M37.6 64 L25.5 57",
+          "M64 37.6 L52 16.9",
+          "M100 28 L100 14",
+          "M136 37.6 L148 16.9",
+          "M162.4 64 L174.5 57"
+        ],
+        "stroke": "#ffd24a",
+        "strokeOpacity": 0.85,
+        "strokeWidth": 3,
+        "anim": "spinCW",
+        "durationS": 30
+      }
+    ]
+  },
+  {
+    "material": "Platinum",
+    "auraLabel": "Falling pegasus feathers",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#f0fafc"
+          },
+          {
+            "offset": 1,
+            "color": "#7fa2b0"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.35,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#f0fafc"
+          },
+          {
+            "offset": 0.5,
+            "color": "#c8e2ea"
+          },
+          {
+            "offset": 1,
+            "color": "#7fa2b0"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.7
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.2
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.35
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52,
+        "stroke": "#7fa2b0",
+        "strokeWidth": 3,
+        "strokeDasharray": "1.8 2.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.7,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.4
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.14
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M79 70 v7 M75.5 73.5 h7",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "twinkle",
+        "animDurationS": 3.4,
+        "animDelayS": 0.6
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M28 58 H72",
+          "strokeWidth": 5
+        },
+        {
+          "kind": "circle",
+          "cx": 24,
+          "cy": 58,
+          "r": 6.5,
+          "strokeWidth": 4
+        },
+        {
+          "kind": "circle",
+          "cx": 76,
+          "cy": 58,
+          "r": 6.5,
+          "strokeWidth": 4
+        },
+        {
+          "kind": "path",
+          "d": "M47 52 C43 40 35 30 23 26 C33 26 41 31 47 37 C45 29 41 23 35 19 C43 21 48 27 50 35 Z",
+          "fill": true
+        },
+        {
+          "kind": "path",
+          "d": "M53 52 C57 40 65 30 77 26 C67 26 59 31 53 37 C55 29 59 23 65 19 C57 21 52 27 50 35 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#ffffff",
+      "highlightOpacity": 0.55,
+      "mainColor": "#4e6a78"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 64,
+        "ryPct": 64,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 57,
+          "color": "rgba(150,215,245,0.6)"
+        },
+        "anim": "breathe",
+        "durationS": 5.5
+      },
+      {
+        "kind": "glow",
+        "insetPct": -4.2,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(150,215,245,0.24)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5.5
+      },
+      {
+        "kind": "icon",
+        "d": "M10 1 C6 7 6 13 10 19 C14 13 14 7 10 1 Z",
+        "viewBox": 20,
+        "fill": "#eaf6fb",
+        "leftPct": 72,
+        "topPct": 14,
+        "sizePx": 13,
+        "anim": "featherFall",
+        "durationS": 4.5
+      },
+      {
+        "kind": "icon",
+        "d": "M10 1 C6 7 6 13 10 19 C14 13 14 7 10 1 Z",
+        "viewBox": 20,
+        "fill": "#eaf6fb",
+        "leftPct": 20,
+        "topPct": 20,
+        "sizePx": 10,
+        "anim": "featherFall",
+        "durationS": 5.6,
+        "delayS": 2.1
+      }
+    ]
+  },
+  {
+    "material": "Iridium",
+    "auraLabel": "Prismatic oil-slick swirl",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#d2ccd8"
+          },
+          {
+            "offset": 1,
+            "color": "#4a4656"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.42,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#d2ccd8"
+          },
+          {
+            "offset": 0.5,
+            "color": "#948e9e"
+          },
+          {
+            "offset": 1,
+            "color": "#4a4656"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.6
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#d86ac8",
+              "opacity": 0.3
+            },
+            {
+              "offset": 1,
+              "color": "#d86ac8",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.25,
+          "cy": 0.72,
+          "r": 0.42,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#4ac8b8",
+              "opacity": 0.28
+            },
+            {
+              "offset": 1,
+              "color": "#4ac8b8",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.42
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#4a4656",
+        "strokeWidth": 6,
+        "strokeDasharray": "3 6"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.28
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.2
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M70 17 L48 58",
+          "strokeWidth": 4
+        },
+        {
+          "kind": "path",
+          "d": "M70 17 l-10 1 M70 17 l3 10 M66 25 l-10 1 M66 25 l3 10",
+          "strokeWidth": 3
+        },
+        {
+          "kind": "path",
+          "d": "M48 58 L44.5 49 L54 52.5 Z",
+          "fill": true
+        },
+        {
+          "kind": "path",
+          "d": "M26 76 C26 66 32 60 40 61 C45 62 47 66 52 68 C58 70 66 71 68 76 C68 78 66 79 63 79 L29 79 C27 78 26 77 26 76 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#f0f4f6",
+      "highlightOpacity": 0.5,
+      "mainColor": "#343b41",
+      "extras": [
+        {
+          "kind": "circle",
+          "cx": 45,
+          "cy": 61,
+          "r": 3.6,
+          "fill": true,
+          "color": "#C0492E"
+        },
+        {
+          "kind": "path",
+          "d": "M38 55 l-4 -3 M52 57 l4 -4",
+          "strokeWidth": 2,
+          "color": "#C0492E"
+        }
+      ]
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "prismBlobs",
+        "insetPct": -4.2,
+        "colors": [
+          "#e0402e",
+          "#e3a24a",
+          "#5ec98a",
+          "#5a9df0",
+          "#8c6ef0",
+          "#d86ac8"
+        ],
+        "anim": "spinCW",
+        "durationS": 12
+      },
+      {
+        "kind": "glow",
+        "insetPct": 4.2,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 60,
+        "ryPct": 60,
+        "colorStart": "rgba(255,255,255,0.14)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 5
+      }
+    ]
+  },
+  {
+    "material": "Osmium",
+    "auraLabel": "Gravity well, orbiting debris",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#90a4c8"
+          },
+          {
+            "offset": 1,
+            "color": "#232c44"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.5,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#90a4c8"
+          },
+          {
+            "offset": 0.5,
+            "color": "#4e5f80"
+          },
+          {
+            "offset": 1,
+            "color": "#232c44"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#bcd0e8",
+              "opacity": 0.5
+            },
+            {
+              "offset": 1,
+              "color": "#bcd0e8",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.55
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "circleGroup",
+        "layer": "rim",
+        "circles": [
+          {
+            "cx": 109.7,
+            "cy": 75.4,
+            "r": 2.6
+          },
+          {
+            "cx": 91.2,
+            "cy": 101.6,
+            "r": 2.6
+          },
+          {
+            "cx": 60.7,
+            "cy": 112,
+            "r": 2.6
+          },
+          {
+            "cx": 30,
+            "cy": 102.5,
+            "r": 2.6
+          },
+          {
+            "cx": 10.8,
+            "cy": 76.8,
+            "r": 2.6
+          },
+          {
+            "cx": 10.3,
+            "cy": 44.6,
+            "r": 2.6
+          },
+          {
+            "cx": 28.8,
+            "cy": 18.4,
+            "r": 2.6
+          },
+          {
+            "cx": 59.3,
+            "cy": 8,
+            "r": 2.6
+          },
+          {
+            "cx": 90,
+            "cy": 17.5,
+            "r": 2.6
+          },
+          {
+            "cx": 109.2,
+            "cy": 43.2,
+            "r": 2.6
+          }
+        ],
+        "fill": "#141a2a",
+        "opacity": 1
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.4,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.22
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.25
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M33 86 L47 60 L59 38 C61 29 71 26 77 32 C83 38 79 48 70 50 L56 66 L41 90 Z",
+          "fill": true
+        },
+        {
+          "kind": "path",
+          "d": "M19 27 L40 46 M28 19 L49 38 M38 13 L59 32",
+          "strokeWidth": 4.5
+        }
+      ],
+      "highlightColor": "#c4cede",
+      "highlightOpacity": 0.45,
+      "mainColor": "#141a2a",
+      "extras": [
+        {
+          "kind": "circle",
+          "cx": 66,
+          "cy": 38,
+          "r": 1.7,
+          "fill": true,
+          "color": "#4e5f80"
+        },
+        {
+          "kind": "circle",
+          "cx": 72,
+          "cy": 42,
+          "r": 1.7,
+          "fill": true,
+          "color": "#4e5f80"
+        },
+        {
+          "kind": "circle",
+          "cx": 65,
+          "cy": 45,
+          "r": 1.7,
+          "fill": true,
+          "color": "#4e5f80"
+        }
+      ]
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": 7.37,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 70,
+        "ryPct": 70,
+        "colorStart": "rgba(0,0,0,0.5)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "none",
+        "durationS": 0
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 58,
+        "ryPct": 58,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 50,
+          "color": "rgba(96,118,200,0.5)"
+        },
+        "anim": "collapse",
+        "durationS": 3.6
+      },
+      {
+        "kind": "glow",
+        "insetPct": -3.16,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 62,
+        "ryPct": 62,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 54,
+          "color": "rgba(96,118,200,0.28)"
+        },
+        "anim": "collapse",
+        "durationS": 3.6,
+        "delayS": -1.8
+      },
+      {
+        "kind": "debris",
+        "insetPct": 3.16,
+        "dots": [
+          {
+            "cx": 100,
+            "cy": 14,
+            "r": 3.4
+          },
+          {
+            "cx": 168,
+            "cy": 140,
+            "r": 2.6
+          },
+          {
+            "cx": 30,
+            "cy": 130,
+            "r": 2.2
+          }
+        ],
+        "color": "#8ea6c8",
+        "opacity": 0.7,
+        "anim": "spinCW",
+        "durationS": 9
+      }
+    ]
+  },
+  {
+    "material": "Rhodium",
+    "auraLabel": "Forked blue lightning",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#4f7cc4"
+          },
+          {
+            "offset": 1,
+            "color": "#0a1630"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.3,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#4f7cc4"
+          },
+          {
+            "offset": 0.5,
+            "color": "#274b8c"
+          },
+          {
+            "offset": 1,
+            "color": "#0a1630"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#eaf4ff",
+              "opacity": 0.8
+            },
+            {
+              "offset": 1,
+              "color": "#eaf4ff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#6eaaff",
+              "opacity": 0.3
+            },
+            {
+              "offset": 1,
+              "color": "#6eaaff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.5,
+          "cy": 0.05,
+          "r": 0.7,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#02060f",
+              "opacity": 0.75
+            },
+            {
+              "offset": 1,
+              "color": "#02060f",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.5,
+          "cy": 0.5,
+          "r": 0.5,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#7cc0ff",
+              "opacity": 0.55
+            },
+            {
+              "offset": 1,
+              "color": "#7cc0ff",
+              "opacity": 0
+            }
+          ],
+          "paintR": 32,
+          "afterVignette": true,
+          "anim": "flick",
+          "animDurationS": 2.6
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.3
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52,
+        "stroke": "#0a1630",
+        "strokeWidth": 3,
+        "strokeDasharray": "1.8 2.4"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.85,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.5
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.12
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M38 32 v8 M34 36 h8",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "twinkle",
+        "animDurationS": 2.6
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M20 42 l7 3 -5 6 8 4 M98 76 l-7 -2 5 -7 -8 -3",
+        "stroke": "#bfe0ff",
+        "strokeWidth": 1.8,
+        "strokeLinecap": "round",
+        "strokeLinejoin": "round",
+        "anim": "boltFlash",
+        "animDurationS": 2.3,
+        "animDelayS": 0.4
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M57 13 L36 51 L47.5 51 L40 87 L66 43 L53.5 43 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#0f2547",
+      "highlightOpacity": 0.55,
+      "mainColor": "#f2f8ff"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": -7.37,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 65,
+        "ryPct": 65,
+        "colorStart": "rgba(80,140,255,0.5)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 40,
+          "color": "rgba(30,60,140,0.25)"
+        },
+        "anim": "breathe",
+        "durationS": 3.4
+      },
+      {
+        "kind": "glow",
+        "insetPct": 1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 63,
+        "ryPct": 63,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 56,
+          "color": "rgba(160,210,255,0.65)"
+        },
+        "anim": "flick",
+        "durationS": 1.6
+      },
+      {
+        "kind": "lightning",
+        "insetPct": -5.26,
+        "colorCore": "#e6f2ff",
+        "colorGlow": "#6eaaff",
+        "glowWidth": 6,
+        "glowOpacity": 0.35,
+        "bolts": [
+          {
+            "d": "M100 6 L94 26 L103 24 L96 44",
+            "hasGlow": true,
+            "coreWidth": 2.6,
+            "delayS": 0,
+            "durationS": 3.1
+          },
+          {
+            "d": "M178 62 L160 72 L168 76 L150 88",
+            "hasGlow": true,
+            "coreWidth": 2.4,
+            "delayS": 1.1,
+            "durationS": 4.3
+          },
+          {
+            "d": "M18 128 L38 122 L32 116 L52 108",
+            "hasGlow": true,
+            "coreWidth": 2.4,
+            "delayS": 0.6,
+            "durationS": 3.7
+          },
+          {
+            "d": "M150 178 L142 160 L136 168 L126 148",
+            "hasGlow": true,
+            "coreWidth": 2.2,
+            "delayS": 2,
+            "durationS": 5.1
+          },
+          {
+            "d": "M52 34 L62 50 L52 52 L64 68",
+            "hasGlow": false,
+            "coreWidth": 2.2,
+            "delayS": 2.8,
+            "durationS": 4.7
+          },
+          {
+            "d": "M40 168 L52 152 L44 148 L58 132",
+            "hasGlow": true,
+            "coreWidth": 2.3,
+            "delayS": 1.7,
+            "durationS": 3.3
+          },
+          {
+            "d": "M168 130 L152 128 L158 120 L140 112",
+            "hasGlow": false,
+            "coreWidth": 2,
+            "delayS": 0.9,
+            "durationS": 2.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "Diamond",
+    "auraLabel": "Refracting rainbow lattice",
+    "rim": {
+      "kind": "circle",
+      "r": 56,
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 1,
+            "color": "#a9cfd8"
+          }
+        ]
+      },
+      "stroke": "#000000",
+      "strokeOpacity": 0.28,
+      "strokeWidth": 1.6
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.5,
+            "color": "#dff0f5"
+          },
+          {
+            "offset": 1,
+            "color": "#a9cfd8"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.34,
+          "cy": 0.26,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ffffff",
+              "opacity": 0.85
+            },
+            {
+              "offset": 1,
+              "color": "#ffffff",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.68,
+          "cy": 0.78,
+          "r": 0.3,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#ff6ec7",
+              "opacity": 0.26
+            },
+            {
+              "offset": 1,
+              "color": "#ff6ec7",
+              "opacity": 0
+            }
+          ]
+        },
+        {
+          "cx": 0.22,
+          "cy": 0.75,
+          "r": 0.4,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#6ec7ff",
+              "opacity": 0.24
+            },
+            {
+              "offset": 1,
+              "color": "#6ec7ff",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.7,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.28
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52.5,
+        "stroke": "#8fb8c2",
+        "strokeWidth": 6,
+        "strokeDasharray": "10 3"
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M27 40 A40 40 0 0 1 52 21",
+        "stroke": "#ffffff",
+        "strokeOpacity": 0.9,
+        "strokeWidth": 2.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ffffff",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.55
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 41,
+        "stroke": "#000000",
+        "strokeWidth": 1.4,
+        "strokeOpacity": 0.1
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M42 30 v8 M38 34 h8",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "twinkle",
+        "animDurationS": 2.2
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M78 72 v7 M74.5 75.5 h7",
+        "stroke": "#ffffff",
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round",
+        "anim": "twinkle",
+        "animDurationS": 3,
+        "animDelayS": 1.4
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "group",
+          "transform": "translate(50 50) scale(1.4) translate(-50 -50)",
+          "parts": [
+            {
+              "kind": "path",
+              "d": "M20 46 H31 M16 54 H25 M20 62 H27",
+              "strokeWidth": 2.4,
+              "strokeLinecap": "round"
+            },
+            {
+              "kind": "path",
+              "d": "M28 64 C44 58 60 46 74 30 C70 46 70 54 74 58 C64 56 58 58 56 64 C58 56 56 52 52 52 C56 62 50 64 46 62 C50 56 46 54 42 56 C46 64 40 66 36 62 Z",
+              "fill": true
+            }
+          ]
+        }
+      ],
+      "highlightColor": "#ffffff",
+      "highlightOpacity": 0.6,
+      "mainColor": "#4e7c8a"
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.55
+      },
+      {
+        "kind": "glow",
+        "insetPct": -3.16,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 60,
+        "ryPct": 60,
+        "colorStart": "rgba(255,255,255,0.22)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "breatheSoft",
+        "durationS": 4.5
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": -3.16,
+        "r": 86,
+        "stroke": "#ff6ec7",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 2.5,
+        "dasharray": "10 14",
+        "anim": "spinCW",
+        "durationS": 14
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": 2.1,
+        "r": 82,
+        "stroke": "#6ec7ff",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 2,
+        "dasharray": "6 18",
+        "anim": "spinCCW",
+        "durationS": 20
+      },
+      {
+        "kind": "icon",
+        "d": "M10 2 V18 M2 10 H18",
+        "viewBox": 20,
+        "stroke": "#ffffff",
+        "strokeWidth": 2,
+        "leftPct": 60,
+        "topPct": 10,
+        "sizePx": 16,
+        "anim": "twinkle",
+        "durationS": 2.6
+      },
+      {
+        "kind": "icon",
+        "d": "M10 2 V18 M2 10 H18",
+        "viewBox": 20,
+        "stroke": "#ffffff",
+        "strokeWidth": 2,
+        "leftPct": 14,
+        "topPct": 70,
+        "sizePx": 12,
+        "anim": "twinkle",
+        "durationS": 3.4,
+        "delayS": 1
+      }
+    ]
+  },
+  {
+    "material": "Neutronium",
+    "auraLabel": "Ash, embers, burning rage",
+    "rim": {
+      "kind": "polygon",
+      "d": "M110.7 60.0 L109.5 88.6 L88.2 108.9 L60.0 115.4 L32.3 108.0 L15.1 85.9 L3.7 60.0 L13.0 32.9 L31.0 9.8 L60.0 2.9 L88.6 10.4 L104.6 34.2 Z",
+      "gradient": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 0,
+        "y2": 1,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#3a1c1e"
+          },
+          {
+            "offset": 1,
+            "color": "#050202"
+          }
+        ]
+      },
+      "stroke": "#e0402e",
+      "strokeOpacity": 0.4,
+      "strokeWidth": 1.5
+    },
+    "face": {
+      "r": 48,
+      "gradient": {
+        "cx": 0.38,
+        "cy": 0.3,
+        "r": 0.9,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#413a36"
+          },
+          {
+            "offset": 0.55,
+            "color": "#191413"
+          },
+          {
+            "offset": 1,
+            "color": "#040202"
+          }
+        ]
+      },
+      "speculars": [
+        {
+          "cx": 0.5,
+          "cy": 0.47,
+          "r": 0.42,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#e0402e",
+              "opacity": 0.85
+            },
+            {
+              "offset": 1,
+              "color": "#3a1214",
+              "opacity": 0
+            }
+          ]
+        }
+      ],
+      "vignette": {
+        "cx": 0.5,
+        "cy": 0.5,
+        "r": 0.5,
+        "stops": [
+          {
+            "offset": 0.66,
+            "color": "#000000",
+            "opacity": 0
+          },
+          {
+            "offset": 1,
+            "color": "#000000",
+            "opacity": 0.6
+          }
+        ]
+      }
+    },
+    "decorations": [
+      {
+        "kind": "ring",
+        "layer": "rim",
+        "r": 52,
+        "stroke": "#2a0f0c",
+        "strokeWidth": 3,
+        "strokeDasharray": "1.8 2.4"
+      },
+      {
+        "kind": "path",
+        "layer": "preVignette",
+        "d": "M46 10 C54 38 54 82 44 110",
+        "stroke": "#b01e1e",
+        "strokeOpacity": 0.8,
+        "strokeWidth": 11,
+        "clipToFace": true
+      },
+      {
+        "kind": "path",
+        "layer": "postVignette",
+        "d": "M50 34 l7 9 -5 8 8 10 M74 54 l9 -5 M40 64 l-10 6 M64 78 l6 8",
+        "stroke": "#e0402e",
+        "strokeOpacity": 0.5,
+        "strokeWidth": 1.6,
+        "strokeLinecap": "round"
+      },
+      {
+        "kind": "ring",
+        "layer": "postVignette",
+        "r": 48,
+        "stroke": "#ff6a52",
+        "strokeWidth": 1,
+        "strokeOpacity": 0.14
+      }
+    ],
+    "glyph": {
+      "parts": [
+        {
+          "kind": "path",
+          "d": "M28 76 C36 62 48 48 66 36 C58 50 48 64 36 76 Z M72 76 C64 62 52 48 34 36 C42 50 52 64 64 76 Z",
+          "fill": true
+        }
+      ],
+      "highlightColor": "#5c1210",
+      "highlightOpacity": 0.6,
+      "mainColor": "#d8d2cc",
+      "extras": [
+        {
+          "kind": "path",
+          "d": "M31 79 L18 90 M69 79 L82 90",
+          "strokeWidth": 3,
+          "strokeDasharray": "2.5 4"
+        }
+      ]
+    },
+    "aura": [
+      {
+        "kind": "groundShadow",
+        "opacity": 0.7
+      },
+      {
+        "kind": "glow",
+        "insetPct": -7.37,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 68,
+        "ryPct": 68,
+        "colorStart": "rgba(224,64,46,0.28)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 40,
+          "color": "rgba(122,20,16,0.18)"
+        },
+        "anim": "breathe",
+        "durationS": 3.2
+      },
+      {
+        "kind": "glow",
+        "insetPct": -1.05,
+        "cxPct": 50,
+        "cyPct": 50,
+        "rxPct": 66,
+        "ryPct": 66,
+        "colorStart": "rgba(0,0,0,0)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "midStop": {
+          "pct": 48,
+          "color": "rgba(224,64,46,0.55)"
+        },
+        "anim": "collapse",
+        "durationS": 3
+      },
+      {
+        "kind": "glow",
+        "cxPct": 38,
+        "cyPct": 30,
+        "rxPct": 2.1,
+        "ryPct": 2.1,
+        "colorStart": "rgba(255,110,60,0.95)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 2.9
+      },
+      {
+        "kind": "glow",
+        "cxPct": 63,
+        "cyPct": 25,
+        "rxPct": 1.6,
+        "ryPct": 1.6,
+        "colorStart": "rgba(255,110,60,0.95)",
+        "colorEnd": "rgba(0,0,0,0)",
+        "anim": "riseSmoke",
+        "durationS": 3.8,
+        "delayS": 1.6
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": -3.16,
+        "r": 84,
+        "stroke": "#e0402e",
+        "strokeOpacity": 0.6,
+        "strokeWidth": 2,
+        "dasharray": "3 9",
+        "anim": "spinCW",
+        "durationS": 7
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": -3.16,
+        "r": 72,
+        "stroke": "#ff8a5e",
+        "strokeOpacity": 0.35,
+        "strokeWidth": 1.6,
+        "dasharray": "2 14",
+        "anim": "spinCW",
+        "durationS": 7
+      },
+      {
+        "kind": "orbitRing",
+        "insetPct": 1.05,
+        "r": 64,
+        "stroke": "#e0402e",
+        "strokeOpacity": 0.4,
+        "strokeWidth": 1.6,
+        "dasharray": "2 11",
+        "anim": "spinCCW",
+        "durationS": 11
+      }
+    ]
+  }
+]

@@ -1,0 +1,4929 @@
+[
+  {
+    "name": "empty_log",
+    "workouts": [],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2026-01-05",
+    "params": {},
+    "expect": {
+      "xp": 0,
+      "level": 0,
+      "streak": 0,
+      "components": {
+        "consistency": 0.0,
+        "progression": 0.0,
+        "volume": 0.0
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 0,
+          "level": 0
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2025-W43",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W44",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2026-W01",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2026-W02",
+          "sessions": 0,
+          "ratio": 0.0
+        }
+      ],
+      "baselines": {},
+      "weights": {
+        "consistency": 0.35,
+        "progression": 0.45,
+        "volume": 0.20000000000000007
+      }
+    }
+  },
+  {
+    "name": "perfect_4x_week",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-31",
+        "session": "s2",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-02",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-03",
+        "session": "s4",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-07",
+        "session": "s6",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-09",
+        "session": "s7",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-10",
+        "session": "s8",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s9",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-14",
+        "session": "s10",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-16",
+        "session": "s11",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-17",
+        "session": "s12",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s13",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s14",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-23",
+        "session": "s15",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-24",
+        "session": "s16",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-27",
+        "session": "s17",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-28",
+        "session": "s18",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-30",
+        "session": "s19",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-31",
+        "session": "s20",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-03",
+        "session": "s21",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-04",
+        "session": "s22",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-06",
+        "session": "s23",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-07",
+        "session": "s24",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-10",
+        "session": "s25",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-11",
+        "session": "s26",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-13",
+        "session": "s27",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-14",
+        "session": "s28",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-17",
+        "session": "s29",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-18",
+        "session": "s30",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-20",
+        "session": "s31",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-21",
+        "session": "s32",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-24",
+        "session": "s33",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-25",
+        "session": "s34",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-27",
+        "session": "s35",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-28",
+        "session": "s36",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-03",
+        "session": "s37",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-04",
+        "session": "s38",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-06",
+        "session": "s39",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-07",
+        "session": "s40",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-10",
+        "session": "s41",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-11",
+        "session": "s42",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-13",
+        "session": "s43",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-14",
+        "session": "s44",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-17",
+        "session": "s45",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-18",
+        "session": "s46",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-20",
+        "session": "s47",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-21",
+        "session": "s48",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-03-23",
+    "params": {},
+    "expect": {
+      "xp": 510,
+      "level": 7,
+      "streak": 12,
+      "components": {
+        "consistency": 1.0,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 510,
+          "level": 7
+        },
+        "Back": {
+          "xp": 510,
+          "level": 7
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2025-W01",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W05",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W06",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W07",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W08",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W09",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W10",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W11",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W12",
+          "sessions": 4,
+          "ratio": 1.0
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        },
+        "Row": {
+          "baseline_e1rm": 105.0,
+          "current_e1rm": 105.0,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.4076923076923077,
+        "progression": 0.3923076923076923,
+        "volume": 0.20000000000000007
+      }
+    }
+  },
+  {
+    "name": "decay_before_gap",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-31",
+        "session": "s2",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-02",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-03",
+        "session": "s4",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-07",
+        "session": "s6",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-09",
+        "session": "s7",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-10",
+        "session": "s8",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s9",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-14",
+        "session": "s10",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-16",
+        "session": "s11",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-17",
+        "session": "s12",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s13",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s14",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-23",
+        "session": "s15",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-24",
+        "session": "s16",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 340,
+      "level": 5,
+      "streak": 4,
+      "components": {
+        "consistency": 0.6433597194751468,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 340,
+          "level": 5
+        },
+        "Back": {
+          "xp": 340,
+          "level": 5
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 4,
+          "ratio": 1.0
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        },
+        "Row": {
+          "baseline_e1rm": 105.0,
+          "current_e1rm": 105.0,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "decay_after_gap",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-31",
+        "session": "s2",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-02",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-03",
+        "session": "s4",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-07",
+        "session": "s6",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-09",
+        "session": "s7",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-10",
+        "session": "s8",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s9",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-14",
+        "session": "s10",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-16",
+        "session": "s11",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-17",
+        "session": "s12",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s13",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s14",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-23",
+        "session": "s15",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-24",
+        "session": "s16",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-02-16",
+    "params": {},
+    "expect": {
+      "xp": 221,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.3216798597375734,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 221,
+          "level": 4
+        },
+        "Back": {
+          "xp": 221,
+          "level": 4
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W05",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W06",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W07",
+          "sessions": 0,
+          "ratio": 0.0
+        }
+      ],
+      "baselines": {},
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "progression_one_off_pr",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-22",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 115,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 182,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.21585312293969344,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 182,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 2,
+          "ratio": 0.5
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 134.16666666666669,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "progression_repeated_pr",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s6",
+        "exercise": "Bench Press",
+        "weight": 115,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-22",
+        "session": "s7",
+        "exercise": "Bench Press",
+        "weight": 115,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 346,
+      "level": 5,
+      "streak": 0,
+      "components": {
+        "consistency": 0.2708663160106002,
+        "progression": 0.33333333333333337,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 346,
+          "level": 5
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 3,
+          "ratio": 0.75
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 134.16666666666669,
+          "confirmed": true
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "progression_capped_huge_jump",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s8",
+        "exercise": "Bench Press",
+        "weight": 150,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-22",
+        "session": "s9",
+        "exercise": "Bench Press",
+        "weight": 150,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 346,
+      "level": 5,
+      "streak": 0,
+      "components": {
+        "consistency": 0.2708663160106002,
+        "progression": 0.33333333333333337,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 346,
+          "level": 5
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 3,
+          "ratio": 0.75
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 175.0,
+          "confirmed": true
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "progression_unphysical_unrepeated",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s10",
+        "exercise": "Bench Press",
+        "weight": 105,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-22",
+        "session": "s11",
+        "exercise": "Bench Press",
+        "weight": 250,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 203,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.2708663160106002,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 203,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 3,
+          "ratio": 0.75
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 291.6666666666667,
+          "confirmed": true
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "volume_3_clean_sets",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 259,
+      "level": 5,
+      "streak": 0,
+      "components": {
+        "consistency": 0.1608399298687867,
+        "progression": 0.0,
+        "volume": 1.0
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 259,
+          "level": 5
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 1,
+          "ratio": 0.25
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "volume_8_junk_sets",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 4
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 5
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 6
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 7
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 8
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 259,
+      "level": 5,
+      "streak": 0,
+      "components": {
+        "consistency": 0.1608399298687867,
+        "progression": 0.0,
+        "volume": 1.0
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 259,
+          "level": 5
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 1,
+          "ratio": 0.25
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "volume_1_set_undersaturated",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 162,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.1608399298687867,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 162,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 1,
+          "ratio": 0.25
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "returning_lifter_after_layoff",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-08-05",
+        "session": "sA",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-08-12",
+        "session": "sB",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "sC",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "sC",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 2
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "sC",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 3
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 220,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.055013193070906734,
+        "progression": 0.0,
+        "volume": 1.0
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 220,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 1,
+          "ratio": 0.25
+        }
+      ],
+      "baselines": {},
+      "weights": {
+        "consistency": 0.3644230769230769,
+        "progression": 0.4355769230769231,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "veto_partial_week_prorate",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-25",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-26",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [
+      "2025-01-20",
+      "2025-01-21",
+      "2025-01-22",
+      "2025-01-23",
+      "2025-01-24"
+    ],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 223,
+      "level": 4,
+      "streak": 1,
+      "components": {
+        "consistency": 0.3258795090815069,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 223,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 2,
+          "ratio": 1.0
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3692307692307692,
+        "progression": 0.4307692307692308,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "veto_full_week_drops",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-01",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-08",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-15",
+        "session": "s6",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [
+      "2025-01-20",
+      "2025-01-21",
+      "2025-01-22",
+      "2025-01-23",
+      "2025-01-24",
+      "2025-01-25",
+      "2025-01-26"
+    ],
+    "asOf": "2025-01-26",
+    "params": {
+      "VETO_DAYS_PER_MONTH": 7
+    },
+    "expect": {
+      "xp": 201,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.27136896712289804,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 201,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 0,
+          "ratio": 0.0
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3644230769230769,
+        "progression": 0.4355769230769231,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "veto_no_veto_zero_week",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-01",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-08",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-15",
+        "session": "s6",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 180,
+      "level": 4,
+      "streak": 0,
+      "components": {
+        "consistency": 0.21165347359575992,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 180,
+          "level": 4
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 0,
+          "ratio": 0.0
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3644230769230769,
+        "progression": 0.4355769230769231,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "veto_month_cap_enforced",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [
+      "2025-01-13",
+      "2025-01-14",
+      "2025-01-15",
+      "2025-01-16",
+      "2025-01-17",
+      "2025-01-18",
+      "2025-01-19",
+      "2025-01-20"
+    ],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 145,
+      "level": 3,
+      "streak": 0,
+      "components": {
+        "consistency": 0.1171759295923432,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 145,
+          "level": 3
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 1,
+          "ratio": 0.25
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.3644230769230769,
+        "progression": 0.4355769230769231,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "maturation_long_history",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s2",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s4",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-27",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-03",
+        "session": "s6",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-10",
+        "session": "s7",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-17",
+        "session": "s8",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-02-24",
+        "session": "s9",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-03",
+        "session": "s10",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-10",
+        "session": "s11",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-17",
+        "session": "s12",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-24",
+        "session": "s13",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-03-31",
+        "session": "s14",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-04-07",
+        "session": "s15",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-04-14",
+        "session": "s16",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-04-21",
+        "session": "s17",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-04-28",
+        "session": "s18",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-05-05",
+        "session": "s19",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-05-12",
+        "session": "s20",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-05-19",
+        "session": "s21",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-05-26",
+        "session": "s22",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-06-02",
+        "session": "s23",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-06-09",
+        "session": "s24",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-06-16",
+        "session": "s25",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-06-23",
+        "session": "s26",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-06-30",
+        "session": "s27",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-07-07",
+        "session": "s28",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-07-14",
+        "session": "s29",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-07-21",
+        "session": "s30",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-07-28",
+        "session": "s31",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-08-04",
+        "session": "s32",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-08-11",
+        "session": "s33",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-08-18",
+        "session": "s34",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-08-25",
+        "session": "s35",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-09-01",
+        "session": "s36",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-09-08",
+        "session": "s37",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-09-15",
+        "session": "s38",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-09-22",
+        "session": "s39",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-09-29",
+        "session": "s40",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-10-06",
+        "session": "s41",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-10-13",
+        "session": "s42",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-10-20",
+        "session": "s43",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-10-27",
+        "session": "s44",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-11-03",
+        "session": "s45",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-11-10",
+        "session": "s46",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-11-17",
+        "session": "s47",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-11-24",
+        "session": "s48",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-12-01",
+        "session": "s49",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-12-08",
+        "session": "s50",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-12-15",
+        "session": "s51",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-12-22",
+        "session": "s52",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-12-29",
+        "session": "s53",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2026-01-05",
+        "session": "s54",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2026-01-12",
+        "session": "s55",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2026-01-18",
+    "params": {},
+    "expect": {
+      "xp": 253,
+      "level": 5,
+      "streak": 0,
+      "components": {
+        "consistency": 0.25,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 253,
+          "level": 5
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2025-W44",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W45",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W46",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W47",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W48",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W49",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W50",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W51",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2025-W52",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2026-W01",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2026-W02",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2026-W03",
+          "sessions": 1,
+          "ratio": 0.25
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.6,
+        "progression": 0.2,
+        "volume": 0.20000000000000007
+      }
+    }
+  },
+  {
+    "name": "cardio_only_stretch",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "c1",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-01",
+        "session": "c2",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "c3",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-08",
+        "session": "c4",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "c5",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-15",
+        "session": "c6",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 77,
+      "level": 2,
+      "streak": 0,
+      "components": {
+        "consistency": 0.21165347359575992,
+        "progression": 0.0,
+        "volume": 0.0
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 0,
+          "level": 0
+        },
+        "Back": {
+          "xp": 0,
+          "level": 0
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 2,
+          "ratio": 0.5
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 0,
+          "ratio": 0.0
+        }
+      ],
+      "baselines": {},
+      "weights": {
+        "consistency": 0.3644230769230769,
+        "progression": 0.4355769230769231,
+        "volume": 0.2
+      }
+    }
+  },
+  {
+    "name": "cardio_interleaved_with_strength",
+    "workouts": [
+      {
+        "uid": "u1",
+        "date": "2024-12-30",
+        "session": "s1",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-31",
+        "session": "s2",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-02",
+        "session": "s3",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-03",
+        "session": "s4",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-06",
+        "session": "s5",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-07",
+        "session": "s6",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-09",
+        "session": "s7",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-10",
+        "session": "s8",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-13",
+        "session": "s9",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-14",
+        "session": "s10",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-16",
+        "session": "s11",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-17",
+        "session": "s12",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-20",
+        "session": "s13",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-21",
+        "session": "s14",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-23",
+        "session": "s15",
+        "exercise": "Bench Press",
+        "weight": 100,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-24",
+        "session": "s16",
+        "exercise": "Row",
+        "weight": 90,
+        "reps": 5,
+        "set": 1
+      },
+      {
+        "uid": "u1",
+        "date": "2024-11-12",
+        "session": "cardioA",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 25
+      },
+      {
+        "uid": "u1",
+        "date": "2024-12-03",
+        "session": "cardioB",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 30
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-01",
+        "session": "cardioC",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 20
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-08",
+        "session": "cardioD",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 20
+      },
+      {
+        "uid": "u1",
+        "date": "2025-01-25",
+        "session": "cardioE",
+        "exercise": "Running",
+        "kind": "cardio",
+        "duration": 20
+      }
+    ],
+    "registry": {
+      "exercises": [
+        {
+          "uid": "u1",
+          "name": "Bench Press",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Chest",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        },
+        {
+          "uid": "u1",
+          "name": "Row",
+          "lastWeight": null,
+          "muscles": [
+            {
+              "group": "Back",
+              "role": "primary",
+              "weight": 1.0,
+              "emphasis": null
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "uid": "u1",
+          "name": "Chest",
+          "order": 0
+        },
+        {
+          "uid": "u1",
+          "name": "Back",
+          "order": 1
+        }
+      ]
+    },
+    "vetoes": [],
+    "asOf": "2025-01-26",
+    "params": {},
+    "expect": {
+      "xp": 353,
+      "level": 5,
+      "streak": 4,
+      "components": {
+        "consistency": 0.6597337195788131,
+        "progression": 0.0,
+        "volume": 0.5128205128205129
+      },
+      "perGroup": {
+        "Chest": {
+          "xp": 353,
+          "level": 5
+        },
+        "Back": {
+          "xp": 353,
+          "level": 5
+        }
+      },
+      "weekly": [
+        {
+          "iso_week": "2024-W45",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W46",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2024-W47",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W48",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W49",
+          "sessions": 1,
+          "ratio": 0.25
+        },
+        {
+          "iso_week": "2024-W50",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W51",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2024-W52",
+          "sessions": 0,
+          "ratio": 0.0
+        },
+        {
+          "iso_week": "2025-W01",
+          "sessions": 5,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W02",
+          "sessions": 5,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W03",
+          "sessions": 4,
+          "ratio": 1.0
+        },
+        {
+          "iso_week": "2025-W04",
+          "sessions": 5,
+          "ratio": 1.0
+        }
+      ],
+      "baselines": {
+        "Bench Press": {
+          "baseline_e1rm": 116.66666666666667,
+          "current_e1rm": 116.66666666666667,
+          "confirmed": false
+        },
+        "Row": {
+          "baseline_e1rm": 105.0,
+          "current_e1rm": 105.0,
+          "confirmed": false
+        }
+      },
+      "weights": {
+        "consistency": 0.37884615384615383,
+        "progression": 0.42115384615384616,
+        "volume": 0.19999999999999996
+      }
+    }
+  }
+]

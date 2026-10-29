@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- mark flattened to a single solid silhouette for Android 13 themed icons -->
+  <g fill="#000000" stroke="#000000">
+    <g transform="translate(176,0)">
+      <!-- capital: abacus -->
+      <rect x="-50" y="103" width="100" height="13" rx="3"/>
+      <circle cx="0" cy="109.5" r="4.6"/>
+      <!-- volute curls -->
+      <path d="M-35 117 a8 8 0 1 0 -7 9 a4 4 0 0 0 4 -5" fill="none" stroke-width="6" stroke-linecap="round"/>
+      <path d="M35 117 a8 8 0 1 1 7 9 a4 4 0 0 1 -4 -5" fill="none" stroke-width="6" stroke-linecap="round"/>
+      <!-- flared bell -->
+      <path d="M-26 145 C-45 139 -53 125 -47 112 L47 112 C53 125 45 139 26 145 Z"/>
+      <!-- acanthus leaves -->
+      <path d="M-28 146 Q-19 123 -10 146 Z"/>
+      <path d="M-9 147 Q0 120 9 147 Z"/>
+      <path d="M10 146 Q19 123 28 146 Z"/>
+      <!-- astragal ring -->
+      <rect x="-27" y="145" width="54" height="7" rx="3.5"/>
+      <!-- shaft -->
+      <rect x="-25" y="152" width="50" height="215"/>
+      <!-- flutes -->
+      <g>
+        <rect x="-17.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="-9.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="-1.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="6.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="14.5" y="159" width="3" height="203" rx="1.5"/>
+      </g>
+      <!-- base: torus + plinth -->
+      <rect x="-33" y="367" width="66" height="16" rx="8"/>
+      <rect x="-43" y="383" width="86" height="15" rx="2"/>
+    </g>
+
+    <g transform="translate(336,0)">
+      <!-- capital: abacus -->
+      <rect x="-50" y="103" width="100" height="13" rx="3"/>
+      <circle cx="0" cy="109.5" r="4.6"/>
+      <!-- volute curls -->
+      <path d="M-35 117 a8 8 0 1 0 -7 9 a4 4 0 0 0 4 -5" fill="none" stroke-width="6" stroke-linecap="round"/>
+      <path d="M35 117 a8 8 0 1 1 7 9 a4 4 0 0 1 -4 -5" fill="none" stroke-width="6" stroke-linecap="round"/>
+      <!-- flared bell -->
+      <path d="M-26 145 C-45 139 -53 125 -47 112 L47 112 C53 125 45 139 26 145 Z"/>
+      <!-- acanthus leaves -->
+      <path d="M-28 146 Q-19 123 -10 146 Z"/>
+      <path d="M-9 147 Q0 120 9 147 Z"/>
+      <path d="M10 146 Q19 123 28 146 Z"/>
+      <!-- astragal ring -->
+      <rect x="-27" y="145" width="54" height="7" rx="3.5"/>
+      <!-- shaft -->
+      <rect x="-25" y="152" width="50" height="215"/>
+      <!-- flutes -->
+      <g>
+        <rect x="-17.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="-9.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="-1.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="6.5" y="159" width="3" height="203" rx="1.5"/>
+        <rect x="14.5" y="159" width="3" height="203" rx="1.5"/>
+      </g>
+      <!-- base: torus + plinth -->
+      <rect x="-33" y="367" width="66" height="16" rx="8"/>
+      <rect x="-43" y="383" width="86" height="15" rx="2"/>
+    </g>
+
+    <!-- crossbar / entablature connecting the two shafts -->
+    <rect x="190" y="235" width="132" height="42" rx="4"/>
+    <rect x="190" y="236" width="132" height="5"/>
+    <rect x="190" y="271" width="132" height="5"/>
+  </g>
+</svg>

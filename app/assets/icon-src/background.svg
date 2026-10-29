@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="emeraldTile" gradientUnits="userSpaceOnUse" x1="124.87" y1="-53.00" x2="387.13" y2="565.00">
+      <stop offset="0%" stop-color="#3FE0A6"/>
+      <stop offset="100%" stop-color="#0C7150"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#emeraldTile)"/>
+</svg>

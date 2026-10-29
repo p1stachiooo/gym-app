@@ -1,0 +1,3 @@
+# Phase 4 pull script — Firebase Admin SDK (pulls in google-cloud-firestore).
+# Pinned to the version verified on 2026-06-30 (Python 3.12).
+firebase-admin==7.4.0

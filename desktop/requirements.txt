@@ -1,0 +1,7 @@
+# Phase 8 desktop stats dashboard. Same Admin SDK trust boundary as pull/
+# (see README.md) — plus Dash for the UI and pandas for the metric frames.
+# Unpinned by design; if a future dash/pandas release drops Python 3.9
+# support, pin here to the last 3.9-compatible version and note why.
+dash
+pandas
+firebase-admin

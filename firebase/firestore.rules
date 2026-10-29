@@ -1,0 +1,34 @@
+rules_version = '2';
+
+// Locks every workout document to the UID that owns it.
+// The Admin SDK (pull script) bypasses these rules entirely; they only
+// constrain the phone app.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Same owner-only contract for every collection: workouts (sets) and the
+    // Phase 7 registry (muscleGroups + exercises).
+    match /{col}/{doc} {
+
+      // Only these collections exist; anything else is denied outright.
+      function known() {
+        return col in ['workouts', 'muscleGroups', 'exercises', 'vetoes'];
+      }
+
+      // Create: the new doc must be stamped with the caller's own uid.
+      allow create: if known()
+                    && request.auth != null
+                    && request.auth.uid == request.resource.data.uid;
+
+      // Read & delete: only the owner of the existing doc.
+      allow read, delete: if known()
+                          && request.auth != null
+                          && request.auth.uid == resource.data.uid;
+
+      // Update: must own the existing doc AND not reassign ownership.
+      allow update: if known()
+                    && request.auth != null
+                    && request.auth.uid == resource.data.uid
+                    && request.auth.uid == request.resource.data.uid;
+    }
+  }
+}

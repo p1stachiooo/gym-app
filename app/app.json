@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Project Hercules",
+    "slug": "project-hercules",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.alpharceus.hercules",
+      "versionCode": 14,
+      "adaptiveIcon": {
+        "backgroundColor": "#0C7150",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16a08aa5-1930-4a01-81bb-6f3354b2fc34"
+      }
+    },
+    "owner": "alpharceus"
+  }
+}
