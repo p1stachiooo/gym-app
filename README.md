@@ -4,7 +4,7 @@ A personal strength-training tracker that turns showing up into a game worth pla
 
 Log a set in two taps on your phone; it syncs to the cloud, an XP/leveling engine
 scores the one thing that actually matters — **consistency** — you climb a ladder
-of **21 Greek ranks** from *Initiate* to *Kratos*, and a muscle body map lights up
+of **21 Greek ranks** from _Initiate_ to _Kratos_, and a muscle body map lights up
 (or goes cold) so your blind spots are impossible to ignore. A desktop app charts
 the whole history. No Android Studio, no Play Store, no in-app analytics, no ads.
 
@@ -13,28 +13,28 @@ the whole history. No Android Studio, no Play Store, no in-app analytics, no ads
 ## What it does
 
 - **Fast logging.** Pick a muscle group → an exercise → nudge weight/reps with big
-  thumb-friendly steppers. It remembers your last weight *and* reps per exercise
+  thumb-friendly steppers. It remembers your last weight _and_ reps per exercise
   and prefills them. One tap = one logged set.
 - **Your own exercise library.** A user-extensible registry of 17 muscle groups and
-  exercises, each with a *weighted* muscle mapping (a bench press credits chest
+  exercises, each with a _weighted_ muscle mapping (a bench press credits chest
   fully, shoulders and triceps partially) plus a second **movement-pattern** tag
   (push / pull / squat / hinge / carry / core / isolation), synced across devices.
 - **XP & leveling that can't be farmed.** A pure function over your training log:
   - **Consistency** (the spine) — sessions/week vs. a target, with time **decay**
-    so it reflects *recent* adherence. You can't fake showing up for a month.
+    so it reflects _recent_ adherence. You can't fake showing up for a month.
   - **Progression that holds** — beating a trailing 4-week per-exercise baseline,
     but a PR only counts once you've **repeated it in two sessions**. Ego lifts
     don't score.
   - **Volume** — a **saturating** curve, so the 3rd working set counts and the 8th
     earns almost nothing. Junk-set farming has nothing to farm.
   - **Maturation** — reward shifts from progression → consistency as you advance,
-    because near your ceiling, *maintaining* is the achievement.
+    because near your ceiling, _maintaining_ is the achievement.
   - Nothing is stored — XP, levels, and streaks are computed on read, so the whole
     model is retunable with zero migrations.
 - **Ranks you have to defend.** The same XP drives a **21-tier Greek ladder**
   (Initiate → Hoplite → Myrmidon → … → Zeus → Nike → **Kratos**), three divisions
   each, with hand-drawn **medallions** — animated on the phone, whose material
-  climbs by *density* (gravel → neutronium) as you rise. XP only ever *banks*, but
+  climbs by _density_ (gravel → neutronium) as you rise. XP only ever _banks_, but
   miss an un-excused week and you **slip a division** and lose your progress within
   it, MOBA-style: a rank is a standing you keep, not a trophy you own. Rank, like
   XP, is recomputed from your log — nothing stored.
@@ -42,13 +42,13 @@ the whole history. No Android Studio, no Play Store, no in-app analytics, no ads
   toward consistency (a session is a session) but never inflates strength volume or
   progression, and it warms your legs on the body map.
 - **Muscle body map.** Front + back figures tinted by each group's level — cold
-  where you've neglected, warm where you've worked. It holds the *complete* body as
+  where you've neglected, warm where you've worked. It holds the _complete_ body as
   the constant and surfaces the delta.
 - **Desktop stats app.** A dashboard (KPIs, weekly volume per group, exercise
-  progression / estimated 1RM, muscle balance, PR table, level, **your current rank
-  + medallion**, a **push/pull movement-pattern** balance, cardio minutes, and the
-  same body map) reading your data via the Firebase Admin SDK — runnable with Python
-  or as a **standalone Windows `.exe`**.
+  progression / estimated 1RM, muscle balance, PR table, level, \*\*your current rank
+  - medallion**, a **push/pull movement-pattern** balance, cardio minutes, and the
+    same body map) reading your data via the Firebase Admin SDK — runnable with Python
+    or as a **standalone Windows `.exe`\*\*.
 
 ## How it works
 
@@ -70,12 +70,12 @@ service-account key that never leaves your machine and is never committed.
 
 ## Repository layout
 
-| Dir | What | Stack |
-|-----|------|-------|
-| [`app/`](./app/) | The Expo (React Native) app — logging, accounts, levels, body map | Expo SDK 57, React Native, Firebase JS SDK |
-| [`firebase/`](./firebase/) | Firestore security rules (owner-only per-account) | — |
-| [`desktop/`](./desktop/) | The stats dashboard + standalone `.exe` packaging | Python, Dash/Plotly, firebase-admin, PyInstaller |
-| [`pull/`](./pull/) | A Python script that exports the log to CSV | Python, firebase-admin |
+| Dir                        | What                                                              | Stack                                            |
+| -------------------------- | ----------------------------------------------------------------- | ------------------------------------------------ |
+| [`app/`](./app/)           | The Expo (React Native) app — logging, accounts, levels, body map | Expo SDK 57, React Native, Firebase JS SDK       |
+| [`firebase/`](./firebase/) | Firestore security rules (owner-only per-account)                 | —                                                |
+| [`desktop/`](./desktop/)   | The stats dashboard + standalone `.exe` packaging                 | Python, Dash/Plotly, firebase-admin, PyInstaller |
+| [`pull/`](./pull/)         | A Python script that exports the log to CSV                       | Python, firebase-admin                           |
 
 The XP engine lives in `app/src/progress.ts` + `desktop/progress.py`, and the rank
 engine in `app/src/rank/` + `desktop/rank_engine.py` — deliberate two-language pairs
@@ -90,6 +90,7 @@ phone (react-native-svg) and desktop (server-side SVG) draw the same art.
 **1. Firebase setup (once):** create a project, enable **Email/Password** auth and
 **Cloud Firestore** (production mode), deploy the rules in
 [`firebase/firestore.rules`](./firebase/firestore.rules), then grab:
+
 - your **web config** → `app/.env.local` as `EXPO_PUBLIC_FIREBASE_*` vars,
 - an **Admin service-account key** → `pull/serviceAccountKey.json`.
 
@@ -97,23 +98,29 @@ Both are gitignored and must never be committed — the service-account key gran
 full backend access (it bypasses the security rules), so keep it off git entirely.
 
 **2. Run the app (dev):**
+
 ```bash
 cd app
 npm install
 npx expo start --web        # fast iteration in the browser
 ```
+
 On-device is a sideloaded APK built in Expo's cloud (Expo Go can't run SDK 57):
+
 ```bash
 npm install -g eas-cli && eas login
 eas build --platform android --profile preview   # → an installable .apk
 ```
 
 **3. Run the desktop stats app:**
+
 ```bash
 pip install -r desktop/requirements.txt
 python desktop/app.py                 # opens http://127.0.0.1:8050
 ```
+
 Or build the standalone Windows app (drop `serviceAccountKey.json` next to the exe):
+
 ```bash
 pip install pyinstaller pywebview
 pyinstaller desktop/hercules_stats.spec   # → desktop/dist/HerculesStats/HerculesStats.exe
@@ -145,18 +152,3 @@ phone and a rank panel on the desktop; **cardio** (duration-based, consistency-o
 the muscle body map and the desktop dashboard (+ standalone `.exe`) on both platforms;
 a refined dark UI, remember-me, the Hercules icon, and the "juice" (level-up moments,
 streak flame, decay nudges).
-
-## Built with Claude
-
-Project Hercules was designed, built, and reviewed by a **three-model Claude
-pipeline** — each phase planned, then implemented, then independently checked before
-anything was committed:
-
-- **Claude Fable 5** — *planning & orchestration.* Decomposed each phase, wrote the
-  task briefs, and verified every stage against the running app.
-- **Claude Sonnet 5** — *implementation.* Wrote the bulk of the code across the Expo
-  app, the dual-language XP/rank engines, the medallions, and the desktop dashboard.
-- **Claude Opus 4.8** — *independent review.* Adversarially checked every change for
-  correctness — parity, edge cases, leaks — as a gate before each commit.
-
-Every commit in this history carries all three as co-authors.
